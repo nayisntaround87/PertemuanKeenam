@@ -36,4 +36,5 @@ int main(){
     cout << "\n \t Desa : "<< mhs.alamat.desa;
     cout << "\n \t kota : "<< mhs.alamat.kota;
     cout << "\n Umur : "<< mhs.umur;
+    
 }
