@@ -29,15 +29,19 @@ int main(){
          cin >> mhs[i].alamat.kota;
          cout << "Umur Mahasiswa : ";
          cin >> mhs[i].umur;
+         cin.ignore(1, '\n');
+         cout << endl;
     }
     for (int i=0;i<3;i++){
         cout << endl;
+        cout << "Data Mahasiswa ke-"<<(i+1)<<":"<<end;
         cout << "\n NIM : " << mhs[i].nim;
         cout << "\n Nama : " << mhs[i].nama;
         cout << "\n Alamat ";
         cout << "\n \t Desa : " << mhs[i].alamat.desa;
         cout << "\n \t Kota : " << mhs[i].alamat.kota;
         cout << "\n Umur : " << mhs[i].umur;
+        cout << endl;
     }
 
 }
